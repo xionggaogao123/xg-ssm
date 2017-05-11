@@ -6,6 +6,7 @@ package com.xg.java.ssm.bean;
 public class User {
     private Long id;
     private String name;
+    private String phone;
 
     public User(){}
 
@@ -23,5 +24,13 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }
